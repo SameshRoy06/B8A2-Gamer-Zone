@@ -1,4 +1,130 @@
 /* nav style */
 nav{
-    border: 1px solid blue;
+    margin: 0 15px;
+}
+.nav-logo{
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+}
+.logo-title{
+    color: rgb(250, 14, 93);
+}
+.logo{
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.btn-follow{
+    background-color: rgb(223, 217, 217);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* banner style */
+
+.banner-container{
+    margin-top: 10px;
+    min-height: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.banner-details{
+    width: 100%;
+    background-image: url(../images/Group\ 14.png);
+    margin: 0 30px;
+    padding: 50px;
+}
+
+.banner-photo-image{
+    margin-left: 50px;
+    width: 80%;
+    height: 90%;
+}
+.banner-text{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+}
+.banner-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color: rgb(184, 56, 248);
+    font-weight: bold;
+    padding: 10px;
+}
+.banner-list{
+    list-style: none;
+   
+}
+.banner-btn-1{
+    background-color: #ec12bdfa;
+   padding: 5px;
+   border-radius: 20px;
+   border: none;
+}
+.banner-btn-2{
+    background-color: #21ceecfa;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+/* media query */
+/* dextop devise */
+
+@media screen and (max-width:950px){
+    nav{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column;
+        margin-left: 50px;
+
+    }
+
+
+
+
+
+/* mobile devise */
+@media screen and (max-width:400px){
+    nav{
+        flex-direction: column;
+    }
+    .banner-container{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    
 }

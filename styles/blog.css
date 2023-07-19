@@ -165,6 +165,12 @@ nav{
     height: 300px;
     width: 600px;
 }
+.ttt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+}
 
 
 

@@ -138,7 +138,7 @@ nav{
     text-align: center;
 }
 .game-title{
-    color: rgb(232, 93, 250);;
+    color: rgb(232, 93, 250);
 }
 .online-game-image{
     display: flex;
@@ -204,23 +204,140 @@ nav{
     width: 300px;
     margin-left: 40px;
 }
+
 .play-dis{
     font-size: 20px;
+
 }
 
 
 .play-box{
+    margin:0 auto;
+}
+
+.play-babu{
+    margin-left: 650px;
+    position: relative;
+    bottom: 90px;
+    height: 200px;
+    width: 150px;
+}
+/* icon style */
+
+.icon-iteams{
+    margin: 0 auto;
+    padding: 20px;
+    width: 70%;
+    background-color: rgb(241, 233, 230)
+}
+
+.icon-image{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
     
 }
-.play-babu{
-    margin-bottom: 350px;
-    margin-left: 670px;
-    height: 200px;
-    width: 100px;
-    position: relative;
-    bottom: 120px;
+.image-2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 
 }
+ 
+ .img:hover{
+    transform:translate(45px); scale: 0.5; rotate: (45deg);
+
+}
+/* footer style */
+
+.footer-container{
+    padding: 20px;
+    height: 300px;
+    background-color:black;
+
+
+.title-gamer{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mini-title{
+    color: rgb(250, 14, 93);
+}
+.logo-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.abut-footer-container a{
+    color: white;
+    text-decoration: none;
+
+}
+.abut-footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    list-style: none;
+    padding: 20px;
+}
+
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+.twit-logo{
+    
+    width: 50px;
+    height: 50px;
+}
+.fb-logo{
+    width: 50px;
+    height: 50px;
+}
+.yt-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.inst-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.condition-footer a{
+    color: rgb(192, 189, 189);
+    text-decoration: none;
+
+}
+.condition-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    list-style: none;
+    padding: 20px;
+}
+
+
+.end-dis{
+    color: rgb(189, 183, 183);
+    align-items: center;
+    text-align: center;
+}
+
 
 
 
@@ -249,6 +366,10 @@ nav{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
    }
+   .icon-iteams{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   }
     
 }
 
@@ -263,6 +384,7 @@ nav{
 
 /* mobile ste */
 @media screen and (max-width:576px) {
+
     .nav-container{
         flex-direction: column;
     }
@@ -292,4 +414,11 @@ nav{
     .ttt{
         flex-direction: column;
     }
+  .footer-container{
+    flex-direction: column;
+  }
+
+
+
+
 }

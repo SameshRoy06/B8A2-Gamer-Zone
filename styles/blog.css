@@ -132,9 +132,39 @@ nav{
 .unleash-dis{
     font-size: 25px;
 }
+.online-game{
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.game-title{
+    color: rgb(232, 93, 250);;
+}
+.online-game-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px;
+}
 
+.photo-1{
+    height: 300px;
+    width: 600px;
+}
+.photo-2{
+    height: 300px;
+    width: 600px;
+}
 
-
+.photo-3{
+    height: 300px;
+    width: 600px;
+}
+.photo-4{
+    height: 300px;
+    width: 600px;
+}
 
 
 
@@ -150,6 +180,7 @@ nav{
 
 /* dextop site */
 @media screen and (max-width:992px) {
+   
     
 }
 
@@ -178,6 +209,10 @@ nav{
         align-items: center;
         width: 500px;
         margin-right: 50px;
+    }
+    .online-game-image{
+        flex-direction: column;
+    
     }
     
 }

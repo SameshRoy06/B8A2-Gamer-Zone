@@ -169,7 +169,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 
@@ -404,7 +404,7 @@ nav{
         flex-direction: column;
 
     }
-    
+
     .play-section{
         flex-direction: column;
     }
@@ -417,8 +417,5 @@ nav{
   .footer-container{
     flex-direction: column;
   }
-
-
-
 
 }

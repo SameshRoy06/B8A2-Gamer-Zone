@@ -169,8 +169,47 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 30px;
+    margin-left: 10px;
 }
+
+
+/* play section */
+
+
+.play-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.play-content{
+    width: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 50px;
+    text-align: right;
+}
+.play-title{
+    color: rgb(232, 93, 250);
+    font-size: 40px;
+}
+.play-image{
+    width: 50%;
+}
+
+.play-photo{
+    height: 400px;
+    width: 300px;
+    margin-left: 40px;
+}
+.play-dis{
+    font-size: 20px;
+}
+
+
+
+
 
 
 
@@ -186,7 +225,10 @@ nav{
 
 /* dextop site */
 @media screen and (max-width:992px) {
-   
+   .online-game{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   }
     
 }
 
@@ -218,7 +260,10 @@ nav{
     }
     .online-game-image{
         flex-direction: column;
-    
+
     }
     
+    .play-section{
+        flex-direction: column;
+    }
 }

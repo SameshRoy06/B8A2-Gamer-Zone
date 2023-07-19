@@ -196,6 +196,7 @@ nav{
 }
 .play-image{
     width: 50%;
+    margin-top: 50px;
 }
 
 .play-photo{
@@ -208,7 +209,18 @@ nav{
 }
 
 
+.play-box{
+    
+}
+.play-babu{
+    margin-bottom: 350px;
+    margin-left: 670px;
+    height: 200px;
+    width: 100px;
+    position: relative;
+    bottom: 120px;
 
+}
 
 
 
@@ -226,6 +238,14 @@ nav{
 /* dextop site */
 @media screen and (max-width:992px) {
    .online-game{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   }
+   .ttt{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   }
+   .online-game-image{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
    }
@@ -264,6 +284,12 @@ nav{
     }
     
     .play-section{
+        flex-direction: column;
+    }
+    .play-section{
+        flex-direction: column;
+    }
+    .ttt{
         flex-direction: column;
     }
 }

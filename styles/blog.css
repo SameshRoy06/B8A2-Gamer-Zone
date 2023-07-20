@@ -106,8 +106,9 @@ nav {
 
 /* main section */
 .main-container {
+    width: 100%;
     padding: 20px;
-    min-height: 50px;
+    min-height: 100px;
     background-color: #faf6f7;
     display: flex;
     align-items: center;
@@ -147,49 +148,24 @@ nav {
     font-size: 25px;
 }
 
-.online-game {
-    font-size: 20px;
-    padding: 5px;
+
+.funny-text {
     text-align: center;
-}
-
-.game-title {
-    color: rgb(232, 93, 250);
-}
-
-.online-game-image {
-    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
+}
+
+
+.funny-contain {
+    display: flex;
     gap: 10px;
-    margin: 20px;
+    margin: 0 auto;
+
 }
 
-.photo-1 {
-    height: 300px;
-    width: 600px;
-}
-
-.photo-2 {
-    height: 300px;
-    width: 600px;
-}
-
-.photo-3 {
-    height: 300px;
-    width: 600px;
-}
-
-.photo-4 {
-    height: 300px;
-    width: 600px;
-}
-
-.ttt {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 5px;
+.photo-4{
+    width: 300px;
+    height: 400px;
 }
 
 
@@ -248,37 +224,29 @@ nav {
 
 /* icon style */
 
-.icon-iteams {
-    margin: 0 auto;
-    padding: 20px;
-    width: 70%;
-    background-color: rgb(241, 233, 230)
-}
-
-.icon-image {
-    width: 100%;
+.game-container {
+    background-color: rgb(245, 245, 241);
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
-    text-align: center;
+    align-content: center;
+    padding:90px 90px;
     justify-content: center;
-    gap: 5px;
-
+    gap: 10px;
+    margin: 100px 0;
 }
 
-.image-2 {
+.game-single {
     display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
     align-items: center;
-    gap: 5px;
-
+    cursor: pointer;
 }
 
-.img:hover {
-    transform: translate(45px);
-    scale: 0.5;
-    rotate: (45deg);
-
+.game-single:hover {
+    border: 3px solid #FF42A5;
 }
+
 
 /* footer style */
 
@@ -289,166 +257,111 @@ nav {
 }
 
 
-    .title-gamer {
-        font-size: 30px;
-        color: white;
-        font-weight: bold;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.title-gamer {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mini-title {
+    color: rgb(250, 14, 93);
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.abut-footer-container a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.abut-footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    list-style: none;
+    padding: 20px;
+}
+
+
+
+.footer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.font-awe {
+    font-size: 26px;
+
+}
+
+.condition-footer a {
+    color: rgb(192, 189, 189);
+    text-decoration: none;
+
+}
+
+.condition-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    list-style: none;
+    padding: 20px;
+}
+
+
+.end-dis {
+    color: rgb(189, 183, 183);
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+/* mobile ste */
+@media screen and (max-width:576px) {
+
+    .nav-menu, .nav-container, .main-container,
+    .funny-contain,
+    .play-section {
+        flex-direction: column;
     }
 
-    .mini-title {
-        color: rgb(250, 14, 93);
+    .play-babu{
+        margin-left: 306px;
     }
-
-    .logo-footer {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
+    
+    .logo-footer{
+        flex-direction: column;
     }
-
-    .abut-footer-container a {
-        color: white;
-        text-decoration: none;
-
+    .abut-footer-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
-
-    .abut-footer-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        gap: 50px;
-        list-style: none;
-        padding: 20px;
+    .footer-icon{
+        flex-direction: column;
     }
-
-
-
-    .footer-icon {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        gap: 50px;
-    }
-
-    .font-awe {
-        font-size: 26px;
-
-    }
-
-    .condition-footer a {
-        color: rgb(192, 189, 189);
-        text-decoration: none;
-
-    }
-
-    .condition-footer {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        gap: 50px;
-        list-style: none;
-        padding: 20px;
-    }
-
-
-    .end-dis {
-        color: rgb(189, 183, 183);
-        align-items: center;
-        text-align: center;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* media query */
-
-    /* dextop site */
-    @media screen and (max-width:992px) {
-        .online-game {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-        }
-
-        .ttt {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-        }
-
-        .online-game-image {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-        }
-
-        .icon-iteams {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-        }
-
-    }
-
-
-
-
-
-
-
-
-
-
-    /* mobile ste */
-    @media screen and (max-width:576px) {
-
-        .nav-container {
-            flex-direction: column;
-        }
-
-        .main-container {
-            flex-direction: column;
-        }
-
-        .banner-container {
-            flex-direction: column;
-            padding-left: 50px;
-        }
-
-        .main-content {
-            align-items: center;
-            width: 500px;
-            margin-right: 50px;
-        }
-
-        .online-game-image {
-            flex-direction: column;
-
-        }
-
-        .play-section {
-            flex-direction: column;
-        }
-
-        .play-section {
-            flex-direction: column;
-        }
-
-        .ttt {
-            flex-direction: column;
-        }
-
-        .footer-container {
-            flex-direction: column;
-        }
-
-    }
+}

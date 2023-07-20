@@ -1,37 +1,44 @@
 /* nav style */
-nav{
+nav {
     margin: 0 15px;
 }
-.nav-logo{
+
+.nav-logo {
     display: flex;
     gap: 10px;
     font-weight: bold;
 }
-.logo-title{
+
+.logo-title {
     color: rgb(250, 14, 93);
 }
-.logo{
+
+.logo {
     margin-top: 15px;
     width: 30px;
     height: 30px;
 }
-.nav-container{
+
+.nav-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.nav-menu a{
+
+.nav-menu a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 30px;
 }
-.btn-follow{
+
+.btn-follow {
     background-color: rgb(223, 217, 217);
     padding: 10px;
     border-radius: 10px;
@@ -39,51 +46,57 @@ nav{
 
 /* banner style */
 
-.banner-container{
+.banner-container {
     margin-top: 10px;
     min-height: 50px;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
+
 }
-.banner-details{
+
+.banner-details {
     width: 100%;
     background-image: url(../images/Group\ 14.png);
     margin: 0 30px;
     padding: 50px;
 }
 
-.banner-photo-image{
+.banner-photo-image {
     margin-left: 50px;
     width: 80%;
     height: 90%;
 }
-.banner-text{
+
+.banner-text {
     font-size: 30px;
     font-weight: bold;
     padding: 5px;
 }
-.banner-title{
+
+.banner-title {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 70px;
     color: rgb(184, 56, 248);
     font-weight: bold;
     padding: 10px;
 }
-.banner-list{
+
+.banner-list {
     list-style: none;
-   
+
 }
-.banner-btn-1{
+
+.banner-btn-1 {
     background-color: #ec12bdfa;
-   padding: 5px;
-   color: white;
-   border-radius: 20px;
-   border: none;
+    padding: 5px;
+    color: white;
+    border-radius: 20px;
+    border: none;
 }
-.banner-btn-2{
+
+.banner-btn-2 {
     background-color: #21ceecfa;
     padding: 5px;
     border-radius: 20px;
@@ -92,55 +105,59 @@ nav{
 }
 
 /* main section */
-.main-container{
+.main-container {
     padding: 20px;
     min-height: 50px;
-    background-color:#faf6f7;
+    background-color: #faf6f7;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.main-image-photo{
+.main-image-photo {
     padding: 10px;
     height: 80%;
     width: 80%;
 }
 
-.main-content{
+.main-content {
     padding: 10px;
     width: 500px;
     text-align: right;
     margin-right: 30px;
 }
 
-.main-title{
-    color:  rgb(232, 93, 250);
+.main-title {
+    color: rgb(232, 93, 250);
     font-size: 40px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.main-btn{
+.main-btn {
     background-color: #ec12bdfa;
     color: white;
     padding: 20px;
     border-radius: 30px;
     border: none;
-    
+
 }
-.unleash-dis{
+
+.unleash-dis {
     font-size: 25px;
 }
-.online-game{
+
+.online-game {
     font-size: 20px;
     padding: 5px;
     text-align: center;
 }
-.game-title{
+
+.game-title {
     color: rgb(232, 93, 250);
 }
-.online-game-image{
+
+.online-game-image {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -148,24 +165,27 @@ nav{
     margin: 20px;
 }
 
-.photo-1{
-    height: 300px;
-    width: 600px;
-}
-.photo-2{
+.photo-1 {
     height: 300px;
     width: 600px;
 }
 
-.photo-3{
+.photo-2 {
     height: 300px;
     width: 600px;
 }
-.photo-4{
+
+.photo-3 {
     height: 300px;
     width: 600px;
 }
-.ttt{
+
+.photo-4 {
+    height: 300px;
+    width: 600px;
+}
+
+.ttt {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -176,13 +196,14 @@ nav{
 /* play section */
 
 
-.play-section{
+.play-section {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.play-content{
+
+.play-content {
     width: 50%;
     font-size: 24px;
     font-weight: bold;
@@ -190,48 +211,51 @@ nav{
     margin-right: 50px;
     text-align: right;
 }
-.play-title{
+
+.play-title {
     color: rgb(232, 93, 250);
     font-size: 40px;
 }
-.play-image{
+
+.play-image {
     width: 50%;
     margin-top: 50px;
 }
 
-.play-photo{
+.play-photo {
     height: 400px;
     width: 300px;
     margin-left: 40px;
 }
 
-.play-dis{
+.play-dis {
     font-size: 20px;
 
 }
 
 
-.play-box{
-    margin:0 auto;
+.play-box {
+    margin: 0 auto;
 }
 
-.play-babu{
+.play-babu {
     margin-left: 650px;
     position: relative;
     bottom: 90px;
     height: 200px;
     width: 150px;
 }
+
 /* icon style */
 
-.icon-iteams{
+.icon-iteams {
     margin: 0 auto;
     padding: 20px;
     width: 70%;
     background-color: rgb(241, 233, 230)
 }
 
-.icon-image{
+.icon-image {
     width: 100%;
     display: flex;
     align-items: center;
@@ -239,183 +263,192 @@ nav{
     text-align: center;
     justify-content: center;
     gap: 5px;
-    
+
 }
-.image-2{
+
+.image-2 {
     display: flex;
     align-items: center;
     gap: 5px;
 
 }
- 
- .img:hover{
-    transform:translate(45px); scale: 0.5; rotate: (45deg);
+
+.img:hover {
+    transform: translate(45px);
+    scale: 0.5;
+    rotate: (45deg);
 
 }
+
 /* footer style */
 
-.footer-container{
+.footer-container {
     padding: 20px;
     height: 300px;
-    background-color:black;
-
-
-.title-gamer{
-    font-size: 30px;
-    color: white;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.mini-title{
-    color: rgb(250, 14, 93);
-}
-.logo-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-.abut-footer-container a{
-    color: white;
-    text-decoration: none;
-
-}
-.abut-footer-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 50px;
-    list-style: none;
-    padding: 20px;
-}
-
-.footer-icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 50px;
-}
-.twit-logo{
-    
-    width: 50px;
-    height: 50px;
-}
-.fb-logo{
-    width: 50px;
-    height: 50px;
-}
-.yt-logo{
-    width: 50px;
-    height: 50px;
-}
-
-.inst-logo{
-    width: 50px;
-    height: 50px;
-}
-
-.condition-footer a{
-    color: rgb(192, 189, 189);
-    text-decoration: none;
-
-}
-.condition-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 50px;
-    list-style: none;
-    padding: 20px;
+    background-color: black;
 }
 
 
-.end-dis{
-    color: rgb(189, 183, 183);
-    align-items: center;
-    text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* media query */
-
-/* dextop site */
-@media screen and (max-width:992px) {
-   .online-game{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-   }
-   .ttt{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-   }
-   .online-game-image{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-   }
-   .icon-iteams{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-   }
-    
-}
-
-
-
-
-
-
-
-
-
-
-/* mobile ste */
-@media screen and (max-width:576px) {
-
-    .nav-container{
-        flex-direction: column;
+    .title-gamer {
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-    .main-container{
-        flex-direction: column;
+
+    .mini-title {
+        color: rgb(250, 14, 93);
     }
-    .banner-container{
-        flex-direction: column;
-        padding-left: 50px;
-    }
-    .main-content{
+
+    .logo-footer {
+        display: flex;
         align-items: center;
-        width: 500px;
-        margin-right: 50px;
+        justify-content: center;
+        gap: 10px;
     }
-    .online-game-image{
-        flex-direction: column;
+
+    .abut-footer-container a {
+        color: white;
+        text-decoration: none;
 
     }
 
-    .play-section{
-        flex-direction: column;
+    .abut-footer-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 50px;
+        list-style: none;
+        padding: 20px;
     }
-    .play-section{
-        flex-direction: column;
-    }
-    .ttt{
-        flex-direction: column;
-    }
-  .footer-container{
-    flex-direction: column;
-  }
 
-}
+
+
+    .footer-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .font-awe {
+        font-size: 26px;
+
+    }
+
+    .condition-footer a {
+        color: rgb(192, 189, 189);
+        text-decoration: none;
+
+    }
+
+    .condition-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 50px;
+        list-style: none;
+        padding: 20px;
+    }
+
+
+    .end-dis {
+        color: rgb(189, 183, 183);
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* media query */
+
+    /* dextop site */
+    @media screen and (max-width:992px) {
+        .online-game {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .ttt {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .online-game-image {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .icon-iteams {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+    /* mobile ste */
+    @media screen and (max-width:576px) {
+
+        .nav-container {
+            flex-direction: column;
+        }
+
+        .main-container {
+            flex-direction: column;
+        }
+
+        .banner-container {
+            flex-direction: column;
+            padding-left: 50px;
+        }
+
+        .main-content {
+            align-items: center;
+            width: 500px;
+            margin-right: 50px;
+        }
+
+        .online-game-image {
+            flex-direction: column;
+
+        }
+
+        .play-section {
+            flex-direction: column;
+        }
+
+        .play-section {
+            flex-direction: column;
+        }
+
+        .ttt {
+            flex-direction: column;
+        }
+
+        .footer-container {
+            flex-direction: column;
+        }
+
+    }
